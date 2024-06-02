@@ -1,0 +1,32 @@
+{
+    "name": "storm23/taeg-calculator",
+    "description": "Calculate Taeg ('taux annuel effectif global' in french)",
+    "keywords": [
+        "php",
+        "taeg",
+        "taux annuel effectif global"
+    ],
+    "authors": [
+        {
+            "name": "Julien Goldberg",
+            "email": "julien.goldberg@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Storm23\\TaegCalculator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Storm23\\TaegCalculator\\tests\\": "tests/"
+        }
+    },
+    "version": "1.0.0"
+}
